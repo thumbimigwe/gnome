@@ -1,0 +1,32 @@
+
+#home {
+    background: url(../Pictures/big_img.jpg);
+}
+
+.homepage {
+    
+}
+
+body {
+    background color: lightgrey;
+    width: 100%;
+    
+}
+
+#header {
+    display: block;
+}
+
+#logo {
+    width: 30%;
+    float: left;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
