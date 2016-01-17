@@ -126,3 +126,39 @@ SECTION TWO
 SECTION THREE
 ===================================================
 */
+
+/*
+#type figure{
+    width 25%;
+    float: left;
+    height:300px;
+    margin: 50px 0px 0px 80px;
+}
+*/
+
+#type figure{
+    width: 25%;
+    float: left;
+    margin: 5% 0% 0% 5%;
+    align-content: center;
+}
+#type figure img{
+    width: 70%;
+    margin: 3% 20%;
+    float: inherit;
+    
+}
+
+#type figure h2{
+    text-align: center;
+    color: #454545;
+    width: 100%;
+}
+#type figure p{
+    color: #454545;
+    text-align: center;
+    width: 100%;
+    font-size: 190%;   
+}
+
+
