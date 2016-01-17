@@ -73,24 +73,24 @@ SECTION ONE
 }
 
 blockquote {
-    width: 35%;
-    max-height: 400px;
-    padding: 5px;
+    width: 45%;
+    
+    padding: 0.5% 0% 0% 0%;
     color: #333333;      
 }
 
 blockquote p{
-  font-size: 40px;
+    font-size: 40px;
     line-height:1.2;
-  margin-bottom: 20px;
+    margin-bottom: 2%;
   
 }
 blockquote a{
-  width: 100%;
-  padding: 5px 0;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
-  font-style: italic;
+    width: 100%;
+    padding: 5px 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-style: italic;
 }
     
 /*
@@ -98,9 +98,26 @@ blockquote a{
 SECTION TWO
 ===================================================
 */
+#blog h1{
+    width: 40%;
+    margin: 2% 5%;
+    color: #454545;
+    font-size: 200%;
+}
+
 #blog p{
-    width: 80%;
-    padding-top: 30px;
-    
+    font-size: 180%;
+    margin: 2% 5%;
+    color: #454545;
+}
+
+#blog  a{
+    background: #454545 none repeat scroll 0% 0%;
+    color: #ffffff;
+    padding: 12px 38px;
+    border-radius: 26px;
+    margin:0% 5%;
+    font-size: 150%;
+    font-weight: 800;
 }
 
