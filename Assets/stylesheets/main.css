@@ -1,26 +1,15 @@
-
-#home {
-    background: url(../Pictures/big_img.jpg);
-}
-
-.homepage {
-    
-}
-
+/*
+===================================================
+BODY
+===================================================
+*/
 body {
-    background color: lightgrey;
+    background color: #adadad;
     width: 100%;
-    
 }
 
-#header {
-    display: block;
-}
-
-#logo {
-    width: 30%;
-    float: left;
-    font-weight: 700;
+section {
+    width: 100%;
 }
 
 .container {
@@ -30,3 +19,88 @@ body {
     padding-right: 15px;
     padding-left: 15px;
 }
+
+header {
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    
+}
+
+/*
+===================================================
+HEADER
+===================================================
+*/
+#header {
+    display: block;
+    background: #525252;
+}
+
+#logo {
+    height: 20%;
+    color: #F2CB30;
+    width: 30%;
+    float: left;
+    font-weight: 700;
+    font-size: 350%;
+}
+
+#trouble {
+    float: right;
+}
+header p {
+    width: 30%;
+    float: left;
+    margin: auto;
+    font-size: 25px;
+    color: #c1c1c1;
+    padding-top: 10px;
+    height: 100px;
+    
+}
+
+/*
+===================================================
+SECTION ONE
+===================================================
+*/
+
+#home {
+    background: url(../Pictures/big_img.jpg) no-repeat scroll 0% 0%;
+    background-size: 100%;
+    height: 425px;
+}
+
+blockquote {
+    width: 35%;
+    max-height: 400px;
+    padding: 5px;
+    color: #333333;      
+}
+
+blockquote p{
+  font-size: 40px;
+    line-height:1.2;
+  margin-bottom: 20px;
+  
+}
+blockquote a{
+  width: 100%;
+  padding: 5px 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  font-style: italic;
+}
+    
+/*
+===================================================
+SECTION TWO
+===================================================
+*/
+#blog p{
+    width: 80%;
+    padding-top: 30px;
+    
+}
+
